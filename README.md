@@ -10,5 +10,6 @@
 #### SuZi(val, baifenbi)转千分形式；转百分比
 
 ### npm页面        https://www.npmjs.com/package/yzflhez-js-function
-### 模块引入  #####~ npm install yzflhez-js-function
+### 模块引入
+ #####~ npm install yzflhez-js-function
 
