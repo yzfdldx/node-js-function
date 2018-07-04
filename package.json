@@ -14,10 +14,7 @@
   ],
   "author": "balloonzzq",
   "license": "ISC",
-  "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
