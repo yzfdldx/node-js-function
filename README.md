@@ -12,7 +12,8 @@
 #### GetStyle最终样式
 #### StartMove(oDiv,{width:300,height:300,left:300},3000, 'linear', function(){})js运动
 
+### gethub页面   https://github.com/yzfdldx/node-js-function
 ### npm页面        https://www.npmjs.com/package/yzflhez-js-function
 ### 模块引入
- #####~ npm install yzflhez-js-function
+##### ~ npm install yzflhez-js-function --save
 
