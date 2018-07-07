@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>node-muban-function</name>
+	<name>npm-react-router</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1530711451340</id>
+			<id>1530939241235</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

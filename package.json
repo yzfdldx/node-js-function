@@ -1,32 +1,39 @@
 {
   "name": "yzflhez-js-function",
-  "version": "0.1.5",
-  "description": "常用函数",
-  "main": "bundle.js",
+  "version": "0.2.0",
+  "description": "js常用函数",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack",
-    "server": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack --config ./webpack.config.js --progress"
+    "clean": "rem -rf dist && mkdir dist",
+    "dist": "mkdir dist && babel src --out-dir dist --copy-files",
+    "distClear": "npm run clean && babel src --out-dir dist --copy-files",
+    "prepublish": "npm run distClear"
   },
-  "keywords": [
-    "webpack-react-redux"
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "src",
+    "test"
   ],
-  "author": "balloonzzq",
+  "keywords": [
+    "js",
+    "function",
+    "函数",
+    "常用函数",
+    "深度拷贝",
+    "cookie",
+    "js运动"
+  ],
+  "author": "yzflhez",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.14.0",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
-    "babel-preset-stage-0": "^6.5.0",
-    "css-loader": "^0.25.0",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
-    "redux-logger": "^2.6.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.1"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }

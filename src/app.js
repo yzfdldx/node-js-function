@@ -365,4 +365,4 @@ export default {
   GetClass: getclass,
   GetStyle: getStyle,
   StartMove: startMove
-};
+}
