@@ -1,6 +1,6 @@
 {
   "name": "yzflhez-js-function",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "js常用函数",
   "main": "./dist/index.js",
   "scripts": {
